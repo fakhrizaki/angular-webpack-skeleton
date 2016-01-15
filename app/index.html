@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webpack</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body ng-app="app">
+    <hello></hello>
+	<div ng-controller="HelloController">
+		<h1>{{ controllerMessage }}</h1>
+		<h2>{{ serviceMessage }}</h2>
+	</div>
+    <script src="bundle.js"></script>
+</body>
+</html>
