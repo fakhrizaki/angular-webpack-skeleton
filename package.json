@@ -1,7 +1,7 @@
 {
   "name": "lighthouse",
   "version": "1.0.0",
-  "description": "A web app for Lighthouse Fuel Supply",
+  "description": "Angular + Webpack Skeleton",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --content-base app",
